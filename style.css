@@ -1,0 +1,26 @@
+.container-1{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-container-1 {
+    display: flex;
+    border: 2px solid black;
+    padding: 12px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+
+.flex-box-container-1 div {
+   
+    display: flex;    
+    padding: 10px;
+    border: 1px solid rebeccapurple;
+    align-items: center;
+
+}
